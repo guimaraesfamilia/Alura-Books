@@ -1,0 +1,186 @@
+
+.carrossel_titulo {
+
+    background-color: var(--corBranco);
+    color: var(--corLaranja);
+    font-weight: 700;
+    padding: 1.5rem 0 0.5rem 0;
+    text-align: center;
+
+}
+
+.imagem_livro {
+
+    width: 90%;
+    padding-bottom: 1px;
+}
+
+.swiper-pagination {
+
+    position: inherit;
+    padding: 1rem 0 0.2rem 0;
+}
+
+.swiper-button-prev, .swiper-button-next{
+
+    display: none;
+}
+
+.card {
+
+    background-color: var(--corBranco);
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.card_descricao {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+.descricao_titulo {
+
+    color: var(--corLaranja);
+    font-weight: 700;
+    padding: 0 0 15px;
+    line-height: 25px;
+}
+
+
+.descricao_titulo_livro, .descricao_titulo_autora {
+
+    font-size:18px ;
+    font-weight: 700;
+    color: var(--corAzul);
+    padding-bottom: 15px;
+    padding: 0 0px 10px;
+   
+}
+
+.descricao_texto {
+
+    color: var(--corPreto);
+    
+}
+
+.card_botoes {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem 0.5rem;
+}
+
+.botoes_link {
+
+    background-color: var(--corLaranja);
+    padding: 1rem 2.4rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--corBranco);
+}
+
+.descricao_imagem_estrelinhas {
+
+    padding: 0 0 0.5rem;
+}
+
+.descricao_imagem{
+
+    padding: 1px 3px;
+}
+
+@media screen and (min-width:1024px) {
+    
+    .carrossel_titulo {
+
+        font-size: 1.625rem;
+        padding: 3rem 0 0.5rem 0;
+    }
+
+    .swiper {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 60%;
+        
+    }
+
+    .swiper-pagination {
+        
+
+        padding: 2rem 0 2.5rem 0;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+
+        display: block;
+       
+    }
+
+    .card {
+
+        margin: 2rem auto;
+        width: 50%;
+
+    }
+
+    .botoes_link:hover {
+
+        background: var(--corBranco);
+        color: var(--corLaranja);
+        border: 1px solid var(--corLaranja);
+    }
+}
+
+
+@media screen and (min-width:1728px) {
+    
+    .carrossel_titulo {
+
+        font-size: 2rem;
+    }
+
+    .container_carrossel {
+
+        display: flex;
+        align-items: center;
+        margin:  0 15vw 1rem 15vw;
+
+    }
+
+   
+
+    .swiper-pagination {
+
+        padding: 0.5rem 0 1rem 0;
+    }
+
+    .card {
+
+        margin-top: 6rem;
+        margin-left: 5rem;
+        width: 70%;
+
+    }
+
+    .descricao {
+
+        padding: 0.5rem;
+    }
+
+    .descricao_titulo {
+
+        font-size: 2rem;
+    }
+
+    .botoes_link:hover {
+
+        background: var(--corBranco);
+        color: var(--corLaranja);
+        border: 1px solid var(--corLaranja);
+    }
+}
